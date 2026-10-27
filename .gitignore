@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos locais de configuração com credenciais de banco e segredos
+appsettings.Development.json
+appsettings.*.local.json
+.env
